@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oruel/CLionProjects/OOS_LB/LB5/Semaphore.h
+semaphore.h
+-
+cstdio
+-
+cstdlib
+-
+
+/home/oruel/CLionProjects/OOS_LB/LB5/Thread.h
+sys/types.h
+-
+cstdio
+-
+pthread.h
+-
+cstdlib
+-
+unistd.h
+-
+cstring
+-
+iostream
+-
+
+/home/oruel/CLionProjects/OOS_LB/LB5/mainAit.cpp
+Thread.h
+/home/oruel/CLionProjects/OOS_LB/LB5/Thread.h
+Semaphore.h
+/home/oruel/CLionProjects/OOS_LB/LB5/Semaphore.h
+vector
+-
+
